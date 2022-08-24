@@ -1,0 +1,6 @@
+import url to yt playlist:
+
+http://www.youtube.com/watch_videos?video_ids=[id],[id]....
+https://www.youtube.com/playlist?list=[PLAYLIST ID]&disable_polymer=true
+-or-
+https://music.youtube.com/playlist?list=
