@@ -1,0 +1,17 @@
+{
+  "name": "heroku-yt-dlp",
+  "description": "heroku-yt-dlp",
+  "repository": "https://github.com/laiyuantemp/heroku-yt-dlp",
+  "logo": "",
+  "keywords": ["heroku"],
+
+  "website": "",
+  "repository": "",
+  "stack": "heroku-22",
+  "buildpacks": [
+    {
+      "url": "heroku/php"
+    }
+  ]
+  
+ }
