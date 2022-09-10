@@ -1,5 +1,5 @@
 <?php
-	exec("[ ! -f init.lock ] && touch init.lock && wget 'https://github.com/ly-temp/heroku-yt-dlp/releases/download/0.0.0/yt-dlp_linux'");
+	exec("[ ! -f init.lock ] && touch init.lock && wget 'https://github.com/ly-temp/heroku-yt-dlp/releases/download/0.0.0/yt-dlp_linux' && chmod +x yt-dlp_linux");
 ?>
 <html><head>
 <meta http-equiv="content-type" content="text/html; charset=UTF-8"></head><body><form action="/php/dl_yt.php" method="get"><label for="url">url: </label><input name="url"><br><label for="time">wait time(in second): </label><input name="time" value="60"><br><label for="audio_only">audio_only(0/1): </label><input name="audio_only"><br><label for="format">format: </label><input name="format"><br><button type="submit">download videos</button></form><br><form action="/php/get_format.php" method="get"><label for="url">query url: </label><input name="url"><br><button type="submit">get formats</button></form><a href="/format.out">format.out</a><br><br><a href="php/list.php">list file</a><br>
